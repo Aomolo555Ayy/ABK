@@ -10,7 +10,7 @@ on:
       source_repo:
         description: "HTTPS Git 源码仓库（源码必须位于仓库根目录）"
         required: true
-        type: string
+        type: text
       source_ref:
         description: "源码 branch、tag、refs/... 或完整 40 位 commit SHA"
         required: true
